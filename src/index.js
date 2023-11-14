@@ -1,3 +1,3 @@
-import Flag from "./assets/Flag_of_the_Soviet_Union.png";
+import Flag from './assets/Flag_of_the_Soviet_Union.png'
 
-document.getElementById("image").src = Flag;
+document.getElementById('image').src = Flag
