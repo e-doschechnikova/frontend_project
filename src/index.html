@@ -3,9 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CCCР</title>
+    <link rel="stylesheet" href="./styles.csss">
+    <title>Адаптивный блок с карточками</title>
   </head>
-  <body style="width: 100%; margin: 0 auto; overflow: hidden">
-    <img id="image" />
+  <body>
+    <div class="card-container">
+      <div class="card">
+      <img src="<%=require('./assets/panda.jpg')%>" alt="panda" class="card__img">
+        <div class="card-title">Панда</div>
+        <div class="card-description">Панды проводят за едой до 14 часов в день, а остальное время – спят.</div>
+        <div class="card-price">10 мимими из 10</div>
+      </div>
+  
+      <div class="card">
+        <img src="<%=require('./assets/dog.jpg')%>" alt="dog" class="card__img" >
+        <div class="card-title">Шпиц</div>
+        <div class="card-description">У померанского шпица мягкая набивная пушистая шерсть, короткая небольшая мордочка и пушистый лоб.</div>
+        <div class="card-price">10 мимими из 10</div>
+      </div>
+      <div class="card">
+        <img src="<%=require('./assets/nerpa.jpg')%>" alt="nerpa" class="card__img">
+        <div class="card-title">Нерпа Крошик</div>
+        <div class="card-description">Крошик любит лежать, холить и начесывать свои благодарные бока на суше.</div>
+        <div class="card-price">10 мимими из 10</div>
+      </div>
+      <div class="card">
+        <img src="<%=require('./assets/krolik.jpg')%>" alt="krolik" class="card__img">
+        <div class="card-title">Кролик</div>
+        <div class="card-description"> Длина кроличьих ушей может превышать десять сантиметров, а мировой рекорд составляет без малого восемьдесят сантиметров.</div>
+        <div class="card-price">10 мимими из 10</div>
+      </div>
+      <div class="card">
+        <img src="<%=require('./assets/quokka.jpg')%>" alt="quokka" class="card__img">
+        <div class="card-title">Квокка</div>
+        <div class="card-description">Этот трогательный зверек настоящая сумчатая улыбака! Мордочка у него имеет такой вид, словно квокка все время улыбается.</div>
+        <div class="card-price">10 мимими из 10</div>
+      </div>
   </body>
 </html>
