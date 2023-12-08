@@ -16,7 +16,7 @@ body {
 
 .card {
     box-sizing: border-box;
-    width: calc(20% - 20px);
+    width: calc(33.33% - 20px);
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ddd;
